@@ -93,6 +93,7 @@ Response
 ### PATCH /users/:id
 
 Atualiza parcialmente um usuário existente com as informações fornecidas no corpo da requisição.
+
 Path Parameters
 
     id (required): ID do usuário a ser atualizado.
@@ -119,18 +120,20 @@ Response
 ### OPTIONS /users
 
 Retorna as opções de métodos HTTP suportados para o endpoint /users.
+
 Response
 
     Status: 200 OK
     Headers:
-        Allow: GET, POST, PUT, PATCH, DELETE, OPTIONS
+    Allow: GET, POST, PUT, PATCH, DELETE, OPTIONS
 
 ### HEAD /users
 
 Retorna as informações básicas sobre a lista de usuários, sem o corpo da resposta.
+
 Response
 
     Status: 200 OK
     Headers:
-        X-Total-Count: número total de usuários cadastrados.
+    X-Total-Count: número total de usuários cadastrados.
         
