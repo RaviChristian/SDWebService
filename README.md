@@ -29,26 +29,27 @@ Response
 ### POST /users
 
 Cria um novo usuário com as informações fornecidas no corpo da requisição.
+
 Request Body
 
 
-{
-  "name": "Beltrano",
-  "email": "beltrano@teste.com",
-  "password": "abcdef"
-}
+    {
+      "name": "Beltrano",
+      "email": "beltrano@teste.com",
+      "password": "abcdef"
+    }
 
 Response
 
-    Status: 201 Created
-    Body:
+        Status: 201 Created
+        Body:
 
-{
-  "id": 3,
-  "name": "Beltrano",
-  "email": "beltrano@teste.com",
-  "password": "abcdef"
-}
+    {
+      "id": 3,
+      "name": "Beltrano",
+      "email": "beltrano@teste.com",
+      "password": "abcdef"
+    }
 
 ### PUT /users/:id
 
@@ -59,27 +60,28 @@ Path Parameters
 
 Request Body
 
-{
-  "name": "Beltrano da Silva",
-  "email": "beltrano.silva@teste.com",
-  "password": "123456"
-}
+    {
+      "name": "Beltrano da Silva",
+      "email": "beltrano.silva@teste.com",
+      "password": "123456"
+    }
 
 Response
 
     Status: 200 OK
     Body:
 
-{
-  "id": 3,
-  "name": "Beltrano da Silva",
-  "email": "beltrano.silva@teste.com",
-  "password": "123456"
-}
+    {
+      "id": 3,
+      "name": "Beltrano da Silva",
+      "email": "beltrano.silva@teste.com",
+      "password": "123456"
+    }
 
 ### DELETE /users/:id
 
 Remove um usuário existente.
+
 Path Parameters
 
     id (required): ID do usuário a ser removido.
@@ -97,22 +99,22 @@ Path Parameters
 
 Request Body
 
-{
-  "name": "Beltrano",
-  "email": "beltrano@teste.com"
-}
+    {
+      "name": "Beltrano",
+      "email": "beltrano@teste.com"
+    }
 
 Response
 
     Status: 200 OK
     Body:
 
-{
-  "id": 3,
-  "name": "Beltrano",
-  "email": "beltrano@teste.com",
-  "password": "123456"
-}
+    {
+      "id": 3,
+      "name": "Beltrano",
+      "email": "beltrano@teste.com",
+      "password": "123456"
+    }
 
 ### OPTIONS /users
 
