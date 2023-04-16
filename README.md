@@ -6,6 +6,7 @@
 ### GET /users
 
 Retorna a lista de usuários cadastrados.
+
 Response
 
     Status: 200 OK
@@ -54,6 +55,7 @@ Response
 ### PUT /users/:id
 
 Atualiza um usuário existente com as informações fornecidas no corpo da requisição.
+
 Path Parameters
 
     id (required): ID do usuário a ser atualizado.
