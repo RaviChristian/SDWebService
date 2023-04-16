@@ -125,7 +125,7 @@ Response
 
     Status: 200 OK
     Headers:
-    Allow: GET, POST, PUT, PATCH, DELETE, OPTIONS
+        Allow: GET, POST, PUT, PATCH, DELETE, OPTIONS
 
 ### HEAD /users
 
@@ -135,5 +135,5 @@ Response
 
     Status: 200 OK
     Headers:
-    X-Total-Count: número total de usuários cadastrados.
+        X-Total-Count: número total de usuários cadastrados.
         
