@@ -11,20 +11,20 @@ Response
     Status: 200 OK
     Body:
 
-[
-  {
-    "id": 1,
-    "name": "Fulano",
-    "email": "fulano@teste.com",
-    "password": "123456"
-  },
-  {
-    "id": 2,
-    "name": "Ciclano",
-    "email": "ciclano@teste.com",
-    "password": "654321"
-  }
-]
+    [
+      {
+        "id": 1,
+        "name": "Fulano",
+        "email": "fulano@teste.com",
+        "password": "123456"
+      },
+      {
+        "id": 2,
+        "name": "Ciclano",
+        "email": "ciclano@teste.com",
+        "password": "654321"
+      }
+    ]
 
 ### POST /users
 
