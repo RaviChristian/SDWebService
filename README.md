@@ -41,8 +41,8 @@ Request Body
 
 Response
 
-        Status: 201 Created
-        Body:
+    Status: 201 Created
+    Body:
 
     {
       "id": 3,
