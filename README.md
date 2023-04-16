@@ -2,7 +2,7 @@
 
 ## Equipe : Javier Christian & Lucas Chaves
 
-### Para testar o código, só rodar o server e logo após rodar o client. (porta 3000 deve estar livre.)
+### Para testar o código, só executar o server e logo após executar o client. (porta 3000 deve estar livre.)
 
 
 ### GET /users
