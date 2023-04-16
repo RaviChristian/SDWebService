@@ -1,6 +1,6 @@
 # SDWebService
 
-Equipe : Javier Christian & Lucas Chaves
+## Equipe : Javier Christian & Lucas Chaves
 
 
 ### GET /users
